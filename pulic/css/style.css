@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --teal:#2ec1ac;
+    --teal_hover: #279e8c;
+}
+* {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+
+.h-font {
+    /* // lặp lại các chữ front như roboto với .h-front */
+    font-family: 'Merienda', cursive;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+h2 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+h3 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+h4 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+h4 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+h6 {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.custom-bg {
+    background-color:var(--teal);
+    border: 1px solid var(--teal) ;
+}
+
+.custom-bg:hover {
+    background-color :var(--teal_hover);
+    border-color: var(--teal_hover);
+}
+
+
+/* //// */
+.availability-form {
+    /* margin: -50px;*/
+    z-index: 1;
+    position: relative;
+}
+
+.swiper-slide {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
